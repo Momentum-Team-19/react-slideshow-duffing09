@@ -1,1 +1,70 @@
+body {
+  margin: display;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #242424;
+}
 
+button:hover, select:hover, input:hover {
+  border-color: #d2d2d2;
+  background-color: #363636;
+}
+button:active, select:active, input:active {
+  border-color: #7276ec;
+  background-color: #a7a7a7;
+}
+
+.fullBox {
+  width: 69%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  margin-left: 1%;
+}
+
+/* Style the film title */
+h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  color: white;
+}
+
+/* Style the film original title */
+p {
+  font-size: 1rem;
+}
+
+/* Style the film image */
+img {
+  width: 35%;
+  border-radius: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+/* Style the release date and description */
+.fullBox p {
+  margin: 10px 0;
+  margin: 0;
+  margin-bottom: 10px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+/* Style the Back and Next buttons */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Add hover effect to buttons */
+button:hover {
+  background-color: #0056b3;
+}
